@@ -87,3 +87,8 @@
         margin-top: 3%;
     }
 }
+@media screen and (min-width:1800px){
+    .container{
+        margin-top: 0;
+    }
+}

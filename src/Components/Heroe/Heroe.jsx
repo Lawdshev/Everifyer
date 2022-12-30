@@ -3,7 +3,7 @@ import heroStyles from './Heroe.module.css'
 
 function Heroe() {
     return (
-      <div className={`bg-white mt-[7vh] md:mt-[10vh] ${heroStyles.container}`} >
+      <div className={`bg-white mt-[7vh] md:mt-[10vh] 3xl:mt-0 ${heroStyles.container}`} >
           <div className={heroStyles.overlay}>
              <div className=' h-[90%] md:h-[60%] lg:h-[50%] lg:w-[70%] xl:w-[40%] ml-[4%]'>
               <div className='h-[70%]  flex flex-col justify-between text-white'>

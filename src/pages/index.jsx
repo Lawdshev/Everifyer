@@ -83,7 +83,7 @@ function Index() {
               <p className='navItems' >Contact</p>
               <p className='navItems' >FAQ</p> 
         </span>
-        <button className='joinUsBtn ml-[5%]'>Join us</button>
+        <button className='joinUsBtn ml-[5%] '>Join us</button>
       </div>
       <Heroe/>
       {/* steps */}
