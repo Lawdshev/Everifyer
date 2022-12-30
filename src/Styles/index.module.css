@@ -1,0 +1,56 @@
+.peopleDiv:hover {
+    background: rgba(248, 80, 26, 0.71);
+}/* people that use verifier */
+.peopleDiv {
+    background: rgba(248, 80, 26, 1);
+}
+
+.peopleDivbg {
+    background: url(../assets/privacy-security-data-protection-shield-graphic-concept\ 1.png);
+}
+
+
+/* about verifier  */
+.aboutVerifierDiv{
+    background: rgba(255, 255, 255, 0.67);
+}
+
+.aboutVerifier{
+    background: rgba(255, 255, 255, 0.67);   
+}
+
+
+/* each steps image */
+.step{
+    background: rgba(252, 192, 139, 0.28);
+}
+
+.blogFirstDiv{
+    background: url(../assets/about\ us\ \(1\).png) ;
+}
+
+
+/* breakpoint */
+@media screen and (min-width:1400px){
+    .verifierText {
+        line-height: 40px;
+    }
+
+    .aboutVerifierDiv{
+        height: 100vh;
+    }
+
+    .aboutVerifierSmallBox {
+        bottom: 5%;
+        right:7%;
+ }  
+
+ .blog{
+    height: 100vh;
+ }
+
+}
+
+   
+
+
