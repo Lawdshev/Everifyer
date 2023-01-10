@@ -126,3 +126,11 @@
     height: 100vh;
   }
 }
+
+@media screen and (orientation:landscape) and (max-width: 900px){
+  .joinUsBtn{
+    margin: 0;
+    margin-right: 3%;
+  }
+ 
+}

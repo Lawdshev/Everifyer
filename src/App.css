@@ -1,4 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("./DaxlinePro-Regular/style.css");
 
+
+body,p,a,h1, h2, h3, h4, h5, h6, div,Link,span{
+    font-family: 'Daxline Pro';
+}
+.blogCard:hover .stretch{
+    width: 100%;
+    transition: all 0.5s;
+}

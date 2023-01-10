@@ -11,7 +11,7 @@ function Navbar() {
   }
 
   return (
-    <div className='bg-white md:hidden '>
+    <div className='bg-white md:hidden landscape:hidden '>
     <div className='absolute right-5 z-20 block top-4 bar md:hidden' onClick={toggleNavbar}>
         <i className="fa-solid fa-bars text-[#F8501A] text-[20px] " ></i>
     </div>
@@ -21,10 +21,10 @@ function Navbar() {
     <div className={sidebar ? 'nav active' : 'nav'}>
         <div className='navbars'>
             <div className="navItemsDiv cursor-pointer  " onClick={toggleNavbar}>
-                <Link to='/about' className='navItems'>About</Link>
-                <p className='navItems 3xl:text-[24px]'>Blog</p>
-                <p className='navItems'>Contact</p>
-                <p className='navItems'>FAQ</p>
+                <a href='#about' className='navItems'>About</a>
+                <a href='#blog' className='navItems 3xl:text-[24px]'>Blog</a>
+                <a  href='#contact'  className='navItems'>Contact</a>
+                <a  href='#faq' className='navItems'>FAQ</a>
             </div>
             <button className='joinUsBtn'>Join us</button>
         </div>

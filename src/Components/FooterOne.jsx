@@ -5,7 +5,7 @@ import copy from '../assets/copy.png'
 function FooterOne() {
   return (
     <>
-    <div className='flex flex-col md:h-[602px] mx-auto bg-[#F5F5F5] text-[#3D3B3B] overflow-x-hidden '>
+    <div className='flex flex-col md:h-[602px] mx-auto bg-[#F5F5F5] text-[#3D3B3B] overflow-x-hidden ' id='contact'>
         <div className='flex flex-col items-center justify-center py-2 lg:py-12'>
            <h1 className='font-extrabold text-[20px] leading-[36px] md:text-[30px] md:leading-[48px] lg:text-[36px] lg:leading-[54px] font-workSans 3xl:text-[48px] 3xl:leading-[60px] text-[#3D3B3B]' id='contact'>Contact Us</h1>
            <p id='inTouch' className='text-[#F8501A] text-[14px] leading-[20px] md:text-[20px] md:leading-[26px] lg:text-[24px] lg:leading-[30px] font-bold font-inter 3xl:text-[30px] 3xl:leading-[36px]'>Keep in touch with Us</p>
