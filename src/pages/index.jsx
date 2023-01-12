@@ -91,7 +91,7 @@ function Index() {
       <div className='xl:h-[40vh] flex items-center justify-center mx-[2%] mt-[10%] xl:mt-[5%] bg-white'>
         <div className='h-[80%] w-full lg:w-[95%] xl:w-[95%] py-8 xl:py-0 flex flex-col justify-between '>
           <div className={`h-[30%] md:w-[80%] lg:w-[60%] xl:w-[50%] 3xl:w-[60%] flex items-center justify-around md:ml-[15%] lg:ml-[5%] xl:ml-0  ${indexStyles.how} `}>
-            <div className='md:w-[120px] w-[20%] 3xl:w-[40%] h-[5px] bg-[#F8501A]'></div>
+            <div className='md:w-[120px] w-[20%] 3xl:w-[30%] h-[5px] bg-[#F8501A]'></div>
             <h1 className={` font-roboto font-extrabold text-[20px] leading-[28px] md:text-[28px] lg:text-[32px]   md:leading-[38px] text-[#535252] ${indexStyles.text32}`}>How Our Product Works In <br /> Three Steps </h1>
           </div>
           <div className={`h-[50%] 3xl:h-[70%] items-center flex flex-wrap  justify-between w-full mt-[5%] xl:mt-0 xl:px-[3%] 3xl:mt-[5vh] ${indexStyles.stepsCont}`}>
@@ -127,7 +127,7 @@ function Index() {
       </div>
 
       {/* About Verifier  */}
-      <div className={`${indexStyles.aboutVerifierDiv} md:h-[120vh] 3xl:h-[80vh] flex items-center justify-center bg-[#FFFFFFAB] mb-[3vh] md:mb-0`} id='about' >
+      <div className={`${indexStyles.aboutVerifierDiv} md:h-[120vh] mt-[10vh] 3xl:h-[80vh] flex items-center justify-center bg-[#F5F5F5] mb-[3vh] md:mb-0`} id='about' >
          <div className='w-[90%] h-[90%] xl:h-[80%] flex flex-col xl:flex-row justify-between'>
              <div className={` ${indexStyles.aboutVerifierImgDiv} xl:w-[55%] 3xl:w-[50%] h-[50vh]  md:h-[70%] xl:h-full flex relative mb-2 md:mb-0`}>
                  <div className={` ${indexStyles.aboutVerifier} w-[70%] h-[80%] border-[3px] border-[#F8501A] border-solid  absolute`}></div>
