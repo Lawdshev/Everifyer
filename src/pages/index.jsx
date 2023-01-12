@@ -128,7 +128,7 @@ function Index() {
 
       {/* About Verifier  */}
       <div className={`${indexStyles.aboutVerifierDiv} md:h-[120vh] mt-[10vh] 3xl:h-[80vh] flex items-center justify-center bg-[#F5F5F5] mb-[3vh] md:mb-0`} id='about' >
-         <div className='w-[90%] h-[90%] xl:h-[80%] flex flex-col xl:flex-row justify-between'>
+         <div className='w-[90%] h-[90%] xl:h-[80%] 3xl:h-[85%] flex flex-col xl:flex-row justify-between'>
              <div className={` ${indexStyles.aboutVerifierImgDiv} xl:w-[55%] 3xl:w-[50%] h-[50vh]  md:h-[70%] xl:h-full flex relative mb-2 md:mb-0`}>
                  <div className={` ${indexStyles.aboutVerifier} w-[70%] h-[80%] border-[3px] border-[#F8501A] border-solid  absolute`}></div>
                  <img src={aboutImg} className='bg-[#ffffff] w-[80%] absolute left-[10%] top-[10%] z-10 xl:top-[5%]' /> 
