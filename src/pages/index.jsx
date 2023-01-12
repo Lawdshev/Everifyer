@@ -88,14 +88,14 @@ function Index() {
       <Heroe/>
       {/* steps */}
 
-      <div className='xl:h-[40vh] flex items-center justify-center mx-[2%] my-[10%] xl:mt-[5%] bg-white'>
+      <div className='xl:h-[40vh] flex items-center justify-center mx-[2%] mt-[10%] xl:mt-[5%] bg-white'>
         <div className='h-[80%] w-full lg:w-[95%] xl:w-[95%] py-8 xl:py-0 flex flex-col justify-between '>
-          <div className=' h-[30%] md:w-[80%] lg:w-[60%] xl:w-[50%] 3xl:w-[60%] flex items-center justify-around md:ml-[15%] lg:ml-[5%] xl:ml-0'>
+          <div className={`h-[30%] md:w-[80%] lg:w-[60%] xl:w-[50%] 3xl:w-[60%] flex items-center justify-around md:ml-[15%] lg:ml-[5%] xl:ml-0  ${indexStyles.how} `}>
             <div className='md:w-[120px] w-[20%] 3xl:w-[40%] h-[5px] bg-[#F8501A]'></div>
             <h1 className={` font-roboto font-extrabold text-[20px] leading-[28px] md:text-[28px] lg:text-[32px]   md:leading-[38px] text-[#535252] ${indexStyles.text32}`}>How Our Product Works In <br /> Three Steps </h1>
           </div>
-          <div className=' h-[50%] 3xl:h-[70%] items-center flex flex-wrap  justify-between w-full mt-[5%] xl:mt-0 xl:px-[3%] 3xl:mt-[5vh]  '>
-             <div className=' my-5 mx-[2%] xl:m-0 flex h-[90px] 3xl:h-[50%] w-full md:w-[350px] xl:w-[35%] justify-around items-center   '>
+          <div className={`h-[50%] 3xl:h-[70%] items-center flex flex-wrap  justify-between w-full mt-[5%] xl:mt-0 xl:px-[3%] 3xl:mt-[5vh] ${indexStyles.stepsCont}`}>
+             <div className=' my-5 mx-[2%] xl:m-0 flex h-[90px] 3xl:h-[50%] w-full md:w-[350px] xl:w-[35%] justify-around items-center  steps  '>
                  <div className={`${indexStyles.step} h-[83px] w-[83px] 3xl:w-[calc(120px+1vw)] 3xl:h-[calc(120px+1vw)] flex items-center justify-center hover:bg-white hover:border-[#F8501A] hover:border-[1px] hover:border-solid rounded-full`}>
                     <img src={step1} alt="" srcset="" />
                  </div>
@@ -104,7 +104,7 @@ function Index() {
                     <p className={`h-[50%] font-workSans font-medium text-[12px] md:text-[15px]  leading-[17.6px] text-[#535252] ${indexStyles.text15} `}>Upload the results you want to verify <br /> to get checked easily and fast</p>
                  </div>
              </div>
-             <div className='my-5 ml-[3%] xl:m-0  flex h-[90px]  w-full md:w-[350px] xl:w-[35%] justify-center items-center 3xl:h-[60%] '>
+             <div className='my-5 ml-[3%] xl:m-0  flex h-[90px]  w-full md:w-[350px] xl:w-[35%] justify-center items-center 3xl:h-[60%] steps '>
                  <div className={`${indexStyles.step} hover:bg-white hover:border-[#F8501A] hover:border-[1px] hover:border-solid h-[83px] w-[83px] rounded-full flex justify-center items-center 3xl:w-[calc(120px+1vw)] 3xl:h-[calc(120px+1vw)]`}>
                     <img src={step2} alt="" srcset="" />
                  </div>
@@ -113,7 +113,7 @@ function Index() {
                     <p className={`h-[50%] font-workSans font-medium text-[12px] md:text-[15px] leading-[17.6px] text-[#535252] 3xl:text-[20px] 3xl:leading-[24px] ${indexStyles.text15} `}>Wait a while for result to load <br /> and download</p>
                  </div>
              </div>
-             <div className='my-5 mx-[2%] xl:m-0  flex h-[90px]  w-full md:w-[350px]  xl:w-[30%] justify-around items-center 3xl:h-[60%] '>
+             <div className='my-5 mx-[2%] xl:m-0  flex h-[90px]  w-full md:w-[350px]  xl:w-[30%] justify-around items-center 3xl:h-[60%] steps '>
                  <div className={`${indexStyles.step} hover:bg-white hover:border-[#F8501A] hover:border-[1px] hover:border-solid h-[83px] flex items-center justify-center w-[83px] rounded-full 3xl:w-[calc(120px+1vw)] 3xl:h-[calc(120px+1vw)]`}>
                     <img src={step3} alt="" srcset="" />
                  </div>
@@ -127,7 +127,7 @@ function Index() {
       </div>
 
       {/* About Verifier  */}
-      <div className={`${indexStyles.aboutVerifierDiv} md:h-[120vh] 3xl:h-[80vh] landscape:h-[200px] flex items-center justify-center bg-[#FFFFFFAB] mb-[3vh] md:mb-0`} id='about' >
+      <div className={`${indexStyles.aboutVerifierDiv} md:h-[120vh] 3xl:h-[80vh] flex items-center justify-center bg-[#FFFFFFAB] mb-[3vh] md:mb-0`} id='about' >
          <div className='w-[90%] h-[90%] xl:h-[80%] flex flex-col xl:flex-row justify-between'>
              <div className={` ${indexStyles.aboutVerifierImgDiv} xl:w-[55%] 3xl:w-[50%] h-[50vh]  md:h-[70%] xl:h-full flex relative mb-2 md:mb-0`}>
                  <div className={` ${indexStyles.aboutVerifier} w-[70%] h-[80%] border-[3px] border-[#F8501A] border-solid  absolute`}></div>
@@ -136,7 +136,7 @@ function Index() {
              </div>
 
              <div className={`mt-[2vh] xl:w-[42%] md:h-[30%] xl:h-[85%]  4xl:h-[80%] flex flex-col justify-between lg:w-4/5 mx-auto xl:mx-0 md:mt-[2%] xl:mt-[0%] ${indexStyles.abtDiv}`}>
-               <h1 className={`font-roboto font-bold md:text-[36px] md:leading-[42.19px] text-[28px] leading-[36px]   ${indexStyles.text36}`}>About Verifyer</h1>
+               <h1 className={`font-roboto font-bold md:text-[36px] md:leading-[42.19px] text-[28px] leading-[36px] text-[#535252]   ${indexStyles.text36}`}>About Verifyer</h1>
                <p className={`${indexStyles.verifierText} ${indexStyles.text16} text-[#535252] h-[80%] md:h-[70%] xl:h-[85%] 4xl:h-[65%] lg:w-[80%] text-[12px] leading-[29.81px] md:text-[16px] font-workSans font-medium xl:mt-[5%]`}>Verifyer helps organizations and institutions increase efficiency, lessen expenses and workload by improving the time to verify certificates and results provided them. Verifyer is a pay-as-a-go platform that guarantees to reduce the turn-around time in getting checks done.
                 The Verifyer platform connects persons that need confirmation or verification services with the institutes or organizations that have the data of the subjects to be verified. It does this in three easy steps: Upload Results, Wait a While & Get Result.
                 Verifyer is a 24/7 digital verification and e-transcript solution established to automates and certificates and credentials verification processes.

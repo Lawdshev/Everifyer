@@ -53,11 +53,11 @@
 
 @media only screen and (min-width:1800px){
     .text36{
-        font-size: calc(36px + 1vw);
+        font-size: calc(36px + 0.6vw);
         line-height: calc(42px + 1.5vh) ;
     }
     .text32{
-        font-size: calc(32px + 1vw);
+        font-size: calc(32px + 0.8vw);
         line-height: calc(38px + 1.5vh) ;
     }
     .text20{
@@ -65,7 +65,7 @@
         line-height: calc(23px + 1.5vh) ;
     }
     .text24{
-        font-size: calc(24px + 1vw);
+        font-size: calc(24px + 0.8vw);
         line-height: calc(30px + 1.5vh) ;
     }
     .text15{
@@ -73,36 +73,33 @@
         line-height: calc(17px + 1vh) ;
     }
     .text16{
-        font-size: calc(16px + 0.5vw);
-        line-height: calc(29px + 1.1vh) ;
+        font-size: calc(16px + 0.3vw);
+        line-height: calc(29px + 1vh) ;
     }
 }
 
 @media screen and (orientation: landscape) and (max-width: 900px) {
     .aboutVerifierDiv{
-        height: 800px;  
-        align-items: flex-start;
+        height: 1300px; 
      }
     .aboutVerifierDiv>div{
         height: 75%;  
         margin: 0;
      }
     .aboutVerifierImgDiv{
-        height: 800px;
+        height: 600px;
+        width: 600px;
     }
      .aboutVerifierSmallBox{
         height: 100px;
         width: 100px;
         bottom: -5%;
      }
-     .aboutVerifier{
-        width: 60vw;
-        height: 600px;
-     }
      .abtDiv{
         margin-top: 0;
-        height: 300px;
+        height: 35%;
     }
+   
     .conBtn{
         width: 150px;
     }
@@ -148,10 +145,18 @@
     .blogImg{
        width:100%;   
     }
-  
+    .how{
+        width: 60%;
+    }
+    .stepsCont{
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+      
+    }
 }
 
-@media screen and (orientation: landscape) and (max-width: 1100px) {
+@media screen and (orientation: landscape) and (min-width: 1000px) and (max-width: 1100px) {
     .aboutVerifierDiv{
         height: 1650px;
        

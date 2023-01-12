@@ -11,3 +11,10 @@ body,p,a,h1, h2, h3, h4, h5, h6, div,Link,span{
     width: 100%;
     transition: all 0.5s;
 }
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+    .steps{
+        width: 350px;
+        margin-left: 20px;
+    }
+}

@@ -56,6 +56,7 @@
         height: 100vh;
         margin-top: 10vh;
     }
+    
     .overlay{
         justify-content: flex-start;
         padding: 0;
@@ -78,9 +79,14 @@
     .container{
         height: 100vh;
     }
+    .gen{
+        height: 35%;
+    }
+    
     .head{
         font-size: 60px;
         margin-bottom: 30px;
+        line-height: 60px;
     }
     .texts{
         font-size: 30px;
@@ -91,12 +97,17 @@
     .container{
         margin-top: 0;
     }
-    .textHead{
-        font-size: calc(36px + 1vw) ;
-        line-height: calc(42px + 1.6vh) ;
+    .gen{
+        height: 45%;
     }
+    .textHead{
+        font-size: calc(36px + 0.8vw) ;
+        line-height: calc(42.19px + 2vh) ;
+        font-weight: 800;
+    }
+    
     .textBody{
-        font-size: calc(16px + 1vw) ;
+        font-size: calc(16px + 0.5vw) ;
         line-height: calc(22px + 1.5vh);
     }
 }
@@ -106,6 +117,7 @@
         height: 500px;
         margin-top: 0;
     }
+   
     .gen{
         height: 200px;
         display: flex;
@@ -119,11 +131,11 @@
     }
     .textHead{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 35px;
     }
     .textBody{
         font-size: 14px;
-        line-height: 16px;
+        line-height: 25px;
     }
     .btn{
         height: 40px;
